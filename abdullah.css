@@ -4,10 +4,13 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    
   }
   
   body{
     font-family: 'Noto Sans', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
    
    
   }
@@ -15,6 +18,7 @@
 
   html{
     scroll-behavior: smooth;
+   
   
   }
   
@@ -22,9 +26,7 @@
   a{
     text-decoration: none;
   }
-  h1 ,h2 ,h3, h4.h5{
-    color: #ffff;
-  }
+  
 
 
 
@@ -51,7 +53,8 @@
 }
 .main_box .sidebar_menu{
   position: fixed;
-  height: 100vh;
+  top: 0;
+  height: 90vh;
   width: 280px;
   left: -280px;
   background:#111418;
@@ -73,7 +76,7 @@
  
 .sidebar_menu .menu{
   position: absolute;
-  top: 100px;
+  top: 110px;
   width:100%;
 }
 .sidebar_menu .menu li{
@@ -185,6 +188,16 @@
  
 }
 
+.home-down i{
+  font-size: 40px;
+   margin-top: 140px;
+   margin-left: 75px;
+   font-weight: 500;
+}
+
+ 
+ 
+
 @media (max-width:768px) {
     .home-article .text-article {
       padding: 0;
@@ -193,9 +206,385 @@
        
        
     }
+    .home-down i{
+      
+       margin-top: 100px;
+       margin-left: 85px;
+        
+    }
+    
 
     
+}
+.gg{
+  border: 1px solid red;
 }
  
 /* home-center-end-------------------------- */
 
+
+/* about -------------- */
+
+
+.background-b{
+  background-color:#212529;
+}
+.about-head{
+  color: #fff;
+  font-size: 28px;
+ 
+}
+
+.about-wrapper .left-text{
+  color:#fff ;
+  
+}
+  span{
+
+  color: #20C997;
+
+}
+
+.right-text ul li{
+  list-style: none;
+  border-bottom: 1px solid rgb(80, 75, 75);
+  padding: 10px;
+  font-weight: 500;
+  color: #fff;
+
+}
+.right-text .right-button button {
+  border: none;
+  background: #20C997;
+  padding: 10px 26px;
+  border-radius: 25px;
+  font-weight: 600;
+  color:#fff ;
+  
+
+
+ 
+
+}
+
+/* ----------count */
+.kk{
+  padding: 60px 0;
+
+
+}
+.customer-viwes{
+
+padding: 15px;
+ 
+
+}
+
+
+.buy-viwes .viwes-all h1{
+font-weight: 600;
+color: #dbc9c9;
+}
+@media (max-width:768px) {
+  .buy-viwes .viwes-all h1{
+    font-weight: 500;
+    font-size: 30px;
+    
+    }
+    .buy-viwes .viwes-all h6{
+      
+      font-weight: 500;
+         padding-left: 14px;
+   
+
+      
+      }
+  
+}
+
+.buy-viwes .viwes-all h6{
+color: #dbc9c9;
+font-weight: 500;
+
+
+}
+/* about --------------end */
+
+
+/* what i do--------------------------------------------------- */
+
+
+
+
+
+.backwhatido{
+  background-color: #343A40;
+  margin-top: -28px;
+}
+
+.whatido-weapper .whatido-icon span{
+  background-color: #212529;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 30px;
+}
+.whatido-weapper .whaiido-text{
+  color: #fff;
+}
+.whatido-weapper .whaiido-text p{
+  color: rgb(172, 172, 172);
+}
+
+/* what i do------------------------------------------------end--- */
+
+
+
+
+
+
+
+
+
+/* resme-----------------------start------------------------------------ */
+.resume-bg{
+  background-color: #212529;
+  padding-bottom: 40px;
+}
+.resure{
+  text-align: center;
+  padding: 60px 0 70px 0;
+  color: #fff;
+}
+
+.resume-weapper {
+  background:#111418 ;
+  padding: 15px;
+  color: #fff;
+}
+
+.resume-weapper .top-tittle{
+  background-color:#DC3545;
+  width: 40%;
+ padding: 7px 15px;
+ border-radius: 8px;
+ color: #fff;
+ text-align: center;
+
+}
+/* resme-----------------------------------------------------------------end */
+
+
+
+
+
+
+/* fitter gullary -----------------------start------------------------*/
+.filter-gullary{
+  background-color: #343A40;
+  padding: 70px 0 50px 0;
+ 
+ 
+}
+
+
+.filter-gullary .filter-list{
+  display: flex;
+  margin-bottom: 10px;
+ justify-content: center;
+}
+.filter-gullary .filter-list .active{
+  background: #0ad89a;
+
+ 
+}
+
+.filter-list li{
+  list-style: none;
+  background: #eee;
+  padding: 8px 20px;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.product{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+
+ 
+}
+@media (max-width:768px) {
+  
+  .filter-gullary .filter-list{
+   
+    
+    padding: 8px 0px;
+  
+   
+  }
+  
+  }
+
+  
+  
+ 
+ 
+ 
+
+/* fitter gullary-end---------------------------------------- */
+
+
+ 
+
+ 
+
+ 
+.skill-section{
+  padding: 90px 0 90px 0;
+  background-color: #343A40;
+  margin: 0;
+}
+ 
+
+ 
+
+  .skill_bar .info{
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding:  0 2px;
+  color: #fff;
+
+
+}
+
+.skill_bar .info p:nth-child(2){
+
+  font-weight: 500;
+
+}
+
+.skill_bar .bar{
+
+  width: 100%;
+
+  height: 10px;
+
+  background-color: rgba(0, 0, 0, 0.144);
+
+  border-radius: 25px;
+
+  margin-top: 5px;
+
+  position: relative;
+
+}
+
+.skill_bar .bar span{
+
+  width: 50%;
+
+  height: 100%;
+
+  position: absolute;
+
+  background-color:#0ad89a;
+
+  border-radius: 25px;
+
+}
+
+.skill_bar .bar .html{
+
+  width: 90%;
+
+  animation: html 2s;
+
+}
+
+@keyframes html {
+
+  0%{
+
+      width: 0%;
+
+  }100%{
+
+      width: 90%;
+
+  }
+
+}
+
+.skill_bar .bar .css{
+
+  width: 85%;
+
+  animation: css 2s;
+
+}
+
+@keyframes css {
+
+  0%{
+
+      width: 0%;
+
+  }100%{
+
+      width: 85%;
+
+  }
+
+}
+
+.skill_bar .bar .sass{
+
+  width: 80%;
+
+  animation: sass 2s;
+
+}
+
+@keyframes sass {
+
+  0%{
+
+      width: 0%;
+
+  }100%{
+
+      width: 80%;
+
+  }
+
+}
+
+@media (max-width:769px) {
+  .skill_bar .info{
+
+  
+  
+  
+  
+    padding:  0 ;
+    overflow: hidden;
+   
+  
+  
+  }
+
+  
+}
+
+
+ 
+ 
+ 
